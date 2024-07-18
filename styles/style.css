@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Poppins:ital,wght@1,100;1,400&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+.nav-logo{
+    display: flex;
+    flex-direction: row;
+margin: 57px 97px 190px;    justify-content: space-between;
+}
+    
+.fitness{
+   color: rgb(230, 83, 60);
+   list-style: none;
+   
+}
+.home{
+    background-color: rgb(230, 83, 60); 
+    color: rgb(255, 255, 255);
+    padding: 8px 20px;
+    border-radius: 60px;
+    list-style: none;
+}
+.nav-list{
+    color: rgb(255, 255, 255);
+    list-style: none;
+}
+.nav-bar-option{
+    display: flex;
+    gap: 47px;
+}
