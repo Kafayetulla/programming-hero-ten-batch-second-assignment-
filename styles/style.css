@@ -30,3 +30,47 @@ margin: 57px 97px 190px;    justify-content: space-between;
     display: flex;
     gap: 47px;
 }
+#shape{
+font-family: miama;    
+}
+.header-container{
+    display: flex;
+}
+.header-context{
+    color: rgb(255, 255, 255);
+}
+#btn{
+    background-color: black;
+    border: 1px solid white;
+}
+.change-hab{
+    color: rgb(255, 255, 255);
+}
+.imge-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.img{
+    border-radius: 100px;
+}
+.article-text-color{
+    color: rgb(255, 255, 255);
+}
+.Ran-exter-Container{
+    display: flex;
+}
+.Ran-exter-Container img{ 
+    width: 30%;
+}
+.trainer-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.trainer-img img{
+    width: 30%;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
