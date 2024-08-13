@@ -338,3 +338,127 @@ table,th,td{
     text-align: center;
     padding: 20px;
 }
+/* small device media quray */
+@media screen and (max-width:576px) {
+    body{
+        margin: 0 auto;
+    }
+    .body-margin,.body-margins{
+        margin: 0 20px;
+    }
+    .nav-logo{
+        width: 353px;
+        height: 43px;
+        margin-top: 52px;
+        margin-left:52px;
+    }
+    #nav-bar-options{
+        display: none;
+    }
+    .shape-stay-healthy-container{
+        flex-direction: column;
+    }
+    .shape-stay-healthy-image{
+        margin-top: 150px;
+        margin-left:60px;
+    }
+    .Video-tutorial{
+        
+        margin-left:-50px;
+        margin-top: -250px;
+    }
+    .change-habbit-context{
+        width: 318px;
+        height: 124px;
+        margin: 58px 50px;
+    }
+    .change-habbit-title{
+        font-size: 32px;
+        font-weight: 900;
+    }
+    .imge-container{
+        grid-template-columns:1fr;
+        width:371px;
+        height:1060px; 
+        margin-bottom: 100%;
+    }
+    .img{
+        width: 100%;
+        border-radius: 50%;
+    }
+    .title-contex{
+        width: 231px;
+       height: 274px;
+       margin: 20px 40px;
+    }
+    .Ran-exter-Container{
+        width:auto;
+        height: 162px;
+        grid-template-columns:1fr;
+        margin: 1300px 0 100px 0;
+        padding-bottom:100%;
+    }
+    .Run-extra-heading,.Run-extra-describtion{
+        width: 353px;
+        height: 162px;
+    }
+    .Run-exter-image{
+        width: 70%;
+        height: 95%;
+        margin: 85px 60px 0 0;
+    }
+    /* Trainings and Exercises style  */
+    .Trainings-Exercises-context{
+        width: 353px;
+        height: 162px;
+        margin: 100px 0 50px 0;
+    }
+    .Trainings-Exercises-images{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .containers{
+        display: none;
+    }
+    /* Daliy Routing style  */
+    .Daliy-Routing-context,.BMI-Cal-text,.Meet-Team-text{
+        width: 353px;
+        height: 162px;
+        grid-template-columns: repeat(2,1fr); 
+    }
+    .Daliy-Routing-image{
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 100px;
+    }
+    /* BMI Calculator style  */
+    
+.BMI-Container{
+    flex-direction: column;
+    background:none;
+}
+.Calculate-BMI{
+    width: 353px;
+    height: 386px;
+}
+/* Meet Our Team style  */
+.trainer-img{
+    grid-template-columns:1fr;
+}
+.footer{
+    background: none;
+}
+.Fitness-footer{
+    grid-template-columns:1fr;
+}
+.footer-buttom{
+    text-align:left;
+    
+}
+.footer-buttom{
+    margin-right: 50%;
+}
+    
+.footer-get-started{
+margin-left: 0;
+font-size: 2rem;
+}
+}
